@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#F3C591;
+  height: 100vh;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+
+nav{
+  background:#F3C591;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link{
+  color: #3E293D;
+  margin-right:10px;
+  font-weight: bold;
+
+}
+.navbar-dark .navbar-nav .nav-link.active:hover{
+  border-bottom: 3px solid #F0A0A5;
+  
+  color: #3E293D; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  border-bottom: 3px solid #F0A0A5;
+  color: #3E293D;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:focus{
+  border-bottom:none;
+}
+
+
+
+.main{
+  margin-top: 5%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#book{
+
+  position: relative;
+  width: 500px;
+  height: 350px;
+  transition: transform 0.5s;
+  
+}
+.paper{
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  perspective: 1500px;
+
+}
+
+.front,
+.back{
+  background-color:#FFD87D;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  transform-origin: left;
+  transition: transform 0.5s;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.front{
+  z-index: 1;
+  backface-visibility: hidden;
+  border-left: 20px solid #3E293D;
+}
+.back{
+  z-index: 0;
+}
+.back-content{
+  transform: rotateY(180deg);
+}
+
+.front-content,
+.back-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#start-btn, #cookie-btn, #cake-btn{
+  padding: 8px 22px 8px 22px;
+  background-color:#3E293D;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  margin-top: 15%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.refer-btn{
+  position: absolute;
+
+}
+#cookie-btn{
+  margin-left: -40%;
+  margin-top: 40%;
+ 
+  
+
+}
+#cake-btn{
+  margin-left: 40%;
+  margin-top: 40%;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+
+
+
+.home-head{
+  margin-top: -40%;
+  font-weight: bold;
+}
+
+.option-img{
+  position: absolute;
+}
+#home-cookies{
+  margin-left: -40%;
+}
+#home-cake{
+  margin-left: 40%;
+}
+
+/* paper flipp */
+.flipped .front,
+.flipped .back{
+transform: rotateY(-180deg);
+}
+
+
+/* arrow style */
+
+.arrow{
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.5s;
+
+}
+.arrow:focus{
+  outline: none;
+}
+.arrow:hover i{
+  color: #F0A0A5;
+}
+i{
+  font-size: 30px;
+  color: #3E293D;
+}
+
+/* paper order */
+#p1{
+  z-index: 3;
+}
+#p2{
+  z-index: 2;
+}
+#p3{
+  z-index: 1;
+}
+
+
+
+
+
