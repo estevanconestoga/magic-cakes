@@ -189,7 +189,16 @@ i{
   z-index: 1;
 }
 
+.footer-content-h, .footer-content-b {
+  text-align: left;
+}
 
-
+footer {
+  padding-top: 2em;
+  background-color: #f6db8e;
+  margin-top: 8em;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 
 
