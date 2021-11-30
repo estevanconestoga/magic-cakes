@@ -7,14 +7,15 @@
 body{
   background:#F3C591;
   height: 100vh;
+}
+
+nav{
   margin-left: 70px;
   margin-right: 70px;
 }
 
-
-
-nav{
-  background:#F3C591;
+.logo {
+  max-width: 150px;
 }
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link{
@@ -25,7 +26,6 @@ nav{
 }
 .navbar-dark .navbar-nav .nav-link.active:hover{
   border-bottom: 3px solid #F0A0A5;
-  
   color: #3E293D; 
 }
 
@@ -37,8 +37,6 @@ nav{
 .navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:focus{
   border-bottom:none;
 }
-
-
 
 .main{
   margin-top: 5%;
@@ -193,12 +191,16 @@ i{
   text-align: left;
 }
 
-footer {
+.row>.col-md-6.mt-md-0.mt-3, .row>.col-md-6.mb-md-0.mb-3 {
+  margin-top: 3em !important;
+}
+
+footer.container {
   padding-top: 2em;
   background-color: #f6db8e;
   margin-top: 8em;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  max-width: 100% !important;
+  height: 33vh;
 }
 
 
