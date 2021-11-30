@@ -248,7 +248,9 @@ main {
   text-transform: uppercase;
 }
 
-.contact-div {
+.contact-div, .about-div {
+  display: grid;
+  place-items: center;
   min-width: 500px;
   min-height: 500px;
   background-color: #F7C9C9;
@@ -267,11 +269,6 @@ main {
 
 form.contact-us {
   height: 100%;
-}
-
-.contact-div {
-  display: grid;
-  place-items: center;
 }
 
 .btn.btn-primary.contact-us {
