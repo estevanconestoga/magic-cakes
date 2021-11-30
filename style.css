@@ -217,14 +217,14 @@ a.ft-nav-item {
 
 }
 
-.form-group {
+.form-group.form-footer {
   width: 50%;
   float: left;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-.form-control {
+.form-control.form-footer {
   background-color:#f5dc8e;
   border:#3E293D 1px solid;
 }
@@ -235,5 +235,49 @@ button.btn.btn-primary.mb-2 {
   background-color: #3E293D;
   color: #f5dc8e;
   border-radius: 15px;
+  border: none;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+.page-title {
+  color: #3E293D;
+  text-transform: uppercase;
+}
+
+.contact-div {
+  min-width: 500px;
+  min-height: 500px;
+  background-color: #F7C9C9;
+  margin-top: 2em;
+  border: #3E293D 0.6px solid;
+  border-radius: 10%;
+  filter: drop-shadow(0.2rem 0.2rem 0.1rem rgb(121, 121, 121))
+}
+
+.form-group.contact-us {
+  width: 100% !important;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+form.contact-us {
+  height: 100%;
+}
+
+.contact-div {
+  display: grid;
+  place-items: center;
+}
+
+.btn.btn-primary.contact-us {
+  margin-top: 15px;
+  background-color: #3E293D;
+  color: #f5dc8e;
+  border-radius: 10px;
   border: none;
 }
