@@ -278,3 +278,7 @@ form.contact-us {
   border-radius: 10px;
   border: none;
 }
+
+hr.clearfix.w-100.d-md-none.pb-3 {
+  visibility: hidden;
+}
