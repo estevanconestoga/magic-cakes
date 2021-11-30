@@ -58,7 +58,7 @@
           <!-- front page -->
           <div class="front">
             <div id="f1" class="front-content">
-              <img src="Assets/cookie.jpg" alt="" width="300px" height="300px">
+              <img src="Assets/cookie.jpg" class="cookie-img" alt="" width="300px" height="300px">
               <a  id="start-btn" href="#p2">start here</a>
             </div>
 
@@ -116,8 +116,15 @@
       <div class="container-fluid text-center text-md-left">
         <div class="row">
           <div class="col-md-6 mt-md-0 mt-3">
-            <h5 class="text-uppercase footer-content-h">Subscribe and Save</h5>
-            <p class="footer-content-b">Subscribe to our Newsletter and receive offers difrectly to you inbox.</p>
+            <h5 class="text-uppercase footer-content-h ft-nav-title">Subscribe and Save</h5>
+            <p class="footer-content-b">Subscribe to our Newsletter and receive <br> offers difrectly to you inbox.</p>
+            <form class="form-inline">
+              <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2" class="sr-only">Your Email</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Your Email">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
           </div>
           <hr class="clearfix w-100 d-md-none pb-3">
 
