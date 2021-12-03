@@ -108,7 +108,7 @@ margin-top:-30px;
                     <div class="card">
                         <img src="assets/chocolate-coffee-vanilla-gluten-free-marble-cake-homemade-pound-cake.jpg" class="card-img-top">
                         <div class="card-body">
-                            <h6 class="card-title">Marble </h6>
+                            <h6 class="card-title">Marble Cake </h6>
                             <p class="card-text">Price:$9.67</p>
                             <button type="submit" name="Add_To_Cart"class="add-to-cart btn">ADD TO CARD</button>
                             <input type="hidden" name="Item_Name" value="Marble">

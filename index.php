@@ -121,9 +121,13 @@
             <form class="form-inline">
               <div class="form-group form-footer mx-sm-3 mb-2">
                 <label for="inputPassword2" class="sr-only">Your Email</label>
-                <input type="password" class="form-control form-footer" id="inputPassword2" placeholder="Your Email">
+                <?php
+      
+
+                ?>
+                <input type="text" name="email"class="form-control form-footer" id="subscribe_email" placeholder="Your Email">
               </div>
-              <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+              <button type="submit" name="subscribe" class="btn btn-primary mb-2">Subscribe</button>
             </form>
           </div>
           <hr class="clearfix w-100 d-md-none pb-3">
@@ -134,13 +138,16 @@
 
             <ul class="list-unstyled">
               <li>
-                <a href="index.html" class="ft-nav-item">Home</a>
+                <a href="index.php" class="ft-nav-item">Home</a>
               </li>
               <li>
-                <a href="about.html" class="ft-nav-item">About</a>
+              <li class="nav-item">
+              <a class="nav-link" href="contact.php">MENU</a>
+            </li>
+                <a href="about.php" class="ft-nav-item">About</a>
               </li>
               <li>
-                <a href="contact.html" class="ft-nav-item">Contact Us</a>
+                <a href="contact.php" class="ft-nav-item">Contact Us</a>
               </li>
             </ul>
 

@@ -47,6 +47,9 @@ session_start();
                 <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
               </li>
               <li class="nav-item">
+              <a class="nav-link" href="menu.php">MENU</a>
+            </li>
+              <li class="nav-item">
                 <a class="nav-link" href="about.php">ABOUT </a>
               </li>
              
