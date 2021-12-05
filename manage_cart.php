@@ -1,11 +1,12 @@
 <?php
 session_start();
+require 'connect.php';
 
 
 
 
 
-$sql_connection = mysqli_connect('localhost', 'root', '', 'magiccake');
+
 
 
 
