@@ -1,6 +1,6 @@
  <?php
 
-/	function prepare_string($sql_connection, $string) {
+function prepare_string($sql_connection, $string) {
 		$string = mysqli_real_escape_string($sql_connection, trim($string));
 		return $string;
 	}

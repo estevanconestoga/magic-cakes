@@ -2,14 +2,6 @@
 session_start();
 require 'connect.php';
 
-
-
-
-
-
-
-
-
     if($sql_connection->connect_error){
         die('connection failed : '.$sql_connection->connect_error);
     }else {
