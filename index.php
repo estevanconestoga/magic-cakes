@@ -32,11 +32,11 @@
               <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT </a>
+              <a class="nav-link" href="about.php">ABOUT </a>
             </li>
            
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT US</a>
+              <a class="nav-link" href="contact.php">CONTACT US</a>
             </li>
           </ul>
 
@@ -58,7 +58,7 @@
           <!-- front page -->
           <div class="front">
             <div id="f1" class="front-content">
-              <img src="Assets/cookie.jpg" class="cookie-img" alt="" width="300px" height="300px">
+              <img src="Assets/cookie.jpg" class="cookie-img" alt="Cookie image" >
               <a  id="start-btn" href="#p2">start here</a>
             </div>
 
@@ -141,8 +141,7 @@
                 <a href="index.php" class="ft-nav-item">Home</a>
               </li>
               <li>
-              <li class="nav-item">
-              <a class="nav-link" href="contact.php">MENU</a>
+              <a class="ft-nav-item" href="contact.php">Menu</a>
             </li>
                 <a href="about.php" class="ft-nav-item">About</a>
               </li>
