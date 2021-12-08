@@ -98,5 +98,11 @@ include("header.php");
     </div>
     </div>
     
+    <!-- footer -->
+    
+     <?php
+        require "footer.php";
+      ?>
+
 </body>
 </html>
