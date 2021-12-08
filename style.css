@@ -198,15 +198,24 @@ i{
 }
 
 footer.container {
+<<<<<<< HEAD
   background-color: /*#f5dc8e*/ rgb(246 229 180);
   max-width: 100% !important;
   height: 40vh;
   position: relative;
   margin-top: 200px;
   clear: both;
+=======
+  padding: 2em;
+  background-color: /*#f5dc8e*/ rgba(246, 219, 142, 1);
+  max-width: 100% !important;
+  height: 25vh;
+  position: absolute;
+  bottom: 0;
+>>>>>>> 32faac0b6f8d157804c6670b63d8eda5cbe3e1e3
 }
 
-a.ft-nav-item {
+a.ft-nav-item, .nav-link {
   text-decoration: none !important;
   color: #3E293D;
   font-weight: 600;
