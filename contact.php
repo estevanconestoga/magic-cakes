@@ -16,9 +16,7 @@
     </script>
     <!-- css link  -->
     <link rel="stylesheet" href="style_c.css">
-   
   </head>
-
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
