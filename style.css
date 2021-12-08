@@ -206,7 +206,7 @@ footer.container {
   bottom: 0;
 }
 
-a.ft-nav-item {
+a.ft-nav-item, .nav-link {
   text-decoration: none !important;
   color: #3E293D;
   font-weight: 600;
