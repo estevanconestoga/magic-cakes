@@ -15,74 +15,14 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>
     <!-- css link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_c.css">
    
   </head>
-
-  <style>
-
-    
-/* Contact */
-
-.title-contact {
-  color:#3E293D;
-  margin-top: 3%;
-  text-align: center;
-  margin-bottom: 2%;}
-
-.form-contact {
-  background-color: #F7C9C9;
-  border: 2px solid grey;
-  box-shadow: 1px 1px 3px grey;
-  border-radius: 25px;
-  width: 40%; padding-top:40px;
-  margin: 0 auto;
-  margin-bottom: 5% ;}
-
-.form-contact textarea {
-  width: 70%; height:15vh;
-  margin-left: 15%;
-  border: none;
-  box-shadow: 1px 1px 4px grey;}
-
-.form-contact input {
-  width: 70%; padding: 10px;
-  background: white;
-  margin-left: 15%;
-  border: none;
-  box-shadow: 1px 1px 4px grey;}
-
-.btn-contact {
-  width: 28%; padding: 10px;
-  background-color: #3E293D;
-  color:#F3C591;
-  border:none; 
-  border-radius: 5%;
-  margin-top: 3%;
-  margin-bottom: 5%;
-  margin-left: 37%;
-  box-shadow: 1px 1px 4px grey;}
-
-.form-contact label {
-  color:#3E293D;
-  margin-left: 15%;
-  margin-top:20px;}
-
-.form-contact span {
-  color: red;
-  margin-left: 15%;
-  width: 70%;  
-  display: block;}
-
-.title-result {
-  text-align: center;
-  }
-  </style>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="logo_cake.svg" width="110px" height=110px" alt=""></a>
+        <a class="navbar-brand" href="#"><img class="logo" src="logo_cake.svg" width="150px" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -112,6 +52,12 @@
         require "result_contact.php";
       ?>
       </div>
+    </main>
+
+      <?php
+        require "footer.php";
+      ?>
+      
   </body>
 
 </html>
