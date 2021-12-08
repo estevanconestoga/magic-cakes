@@ -84,17 +84,12 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
+    <!-- footer -->
     
+     <?php
+        require "footer.php";
+      ?>
 
-    
 </body>
 
 </html>
